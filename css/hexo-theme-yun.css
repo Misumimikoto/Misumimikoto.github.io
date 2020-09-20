@@ -129,7 +129,7 @@ body::before {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("/images/background.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/Misumimikoto/blogresources/images/background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1923,7 +1923,7 @@ body::before {
     color: var(--hty-text-color);
   }
   :root:not([data-user-color-scheme]) body::before {
-    background-image: url("/images/background_dark.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/Misumimikoto/blogresources/images/background_dark.jpg");
   }
   :root:not([data-user-color-scheme]) .char {
     background-color: rgba(0,0,0,0.5);
@@ -2001,7 +2001,7 @@ body::before {
   color: var(--hty-text-color);
 }
 [data-user-color-scheme='dark'] body::before {
-  background-image: url("/images/background_dark.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/Misumimikoto/blogresources/images/background_dark.jpg");
 }
 [data-user-color-scheme='dark'] .char {
   background-color: rgba(0,0,0,0.5);
